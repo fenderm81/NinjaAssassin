@@ -1,9 +1,15 @@
 fileFormatVersion: 2
 guid: 7f47f025876158242bb7c640eb5a88e7
-timeCreated: 1463007066
+timeCreated: 1463074376
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: BACKWARDAttackwEffect_0
+    21300002: BACKWARDAttackwEffect_1
+    21300004: BACKWARDAttackwEffect_2
+    21300006: BACKWARDAttackwEffect_3
+    21300008: BACKWARDAttackwEffect_4
+    21300010: BACKWARDAttackwEffect_5
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -26,30 +32,161 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: BACKWARDAttackwEffect_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 23.5}
+        - {x: -9.5, y: -0.5}
+        - {x: -9.5, y: -14.5}
+        - {x: 1.5, y: -23.5}
+        - {x: 28.5, y: -23.5}
+        - {x: 28.5, y: 9.5}
+        - {x: 21.5, y: 23.5}
+    - name: BACKWARDAttackwEffect_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 46
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 24}
+        - {x: -2.5, y: 6}
+        - {x: -2.5, y: -24}
+        - {x: 29.5, y: -24}
+        - {x: 29.5, y: 14}
+        - {x: 22.5, y: 24}
+    - name: BACKWARDAttackwEffect_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 47
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 15.5}
+        - {x: -30.5, y: -6.5}
+        - {x: -26.5, y: -12.5}
+        - {x: -4.5, y: -13.5}
+        - {x: 0.5, y: -7.5}
+        - {x: 0.5, y: -4.5}
+        - {x: 4.5, y: -4.5}
+        - {x: -0.5, y: -9.5}
+        - {x: -4.5, y: -14.5}
+        - {x: -4.5, y: -16.5}
+        - {x: -2.5, y: -20.5}
+        - {x: 25.5, y: -20.5}
+        - {x: 30.5, y: -19.5}
+        - {x: 30.5, y: -1.5}
+        - {x: 26.5, y: 16.5}
+        - {x: 24.5, y: 23.5}
+        - {x: -9.5, y: 23.5}
+        - {x: -28.5, y: 20.5}
+    - name: BACKWARDAttackwEffect_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 23.5}
+        - {x: 10.5, y: 23.5}
+        - {x: 4.5, y: 15.5}
+        - {x: -20.5, y: 7.5}
+        - {x: -20.5, y: -5.5}
+        - {x: -2.5, y: -20.5}
+        - {x: 25.5, y: -20.5}
+        - {x: 30.5, y: -19.5}
+        - {x: 30.5, y: -3.5}
+        - {x: 28.5, y: 5.5}
+    - name: BACKWARDAttackwEffect_4
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 1}
+      outline:
+      - - {x: 21.5, y: 4.5}
+        - {x: 26.5, y: 4.5}
+        - {x: 27.5, y: 3.5}
+        - {x: 30.5, y: 3.5}
+        - {x: 30.5, y: 12.5}
+        - {x: 24.5, y: 23.5}
+        - {x: -6.5, y: 23.5}
+        - {x: -12.5, y: 19.5}
+        - {x: -12.5, y: -21.5}
+        - {x: 30.5, y: -21.5}
+        - {x: 30.5, y: -8.5}
+        - {x: 29.5, y: -3.5}
+        - {x: 26.5, y: 2.5}
+        - {x: 22.5, y: 4.5}
+      - - {x: 12.5, y: 21.5}
+        - {x: 12.5, y: 23.5}
+        - {x: 7.5, y: 23.5}
+        - {x: 9.5, y: 20.5}
+    - name: BACKWARDAttackwEffect_5
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 23.5}
+        - {x: -7.5, y: 10.5}
+        - {x: -7.5, y: -21.5}
+        - {x: 30.5, y: -21.5}
+        - {x: 30.5, y: 19.5}
+        - {x: 23.5, y: 23.5}
     outline: []
   spritePackingTag: 
   userData: 

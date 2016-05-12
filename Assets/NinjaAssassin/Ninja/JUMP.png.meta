@@ -1,9 +1,12 @@
 fileFormatVersion: 2
 guid: 6d86c0ead1cb3d148a1a485f2873ca7b
-timeCreated: 1463007066
+timeCreated: 1463074504
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: JUMP_0
+    21300002: JUMP_1
+    21300004: JUMP_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -26,30 +29,92 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: JUMP_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 23}
+        - {x: 3, y: 23}
+        - {x: -1, y: 14}
+        - {x: -18, y: -2}
+        - {x: -18, y: -12}
+        - {x: -4, y: -23}
+        - {x: 23, y: -23}
+        - {x: 23, y: 7}
+        - {x: 12, y: 22}
+    - name: JUMP_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 23}
+        - {x: -23, y: 14}
+        - {x: -23, y: 1}
+        - {x: -11, y: -18}
+        - {x: -8, y: -23}
+        - {x: 23, y: -23}
+        - {x: 23, y: 23}
+    - name: JUMP_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 23}
+        - {x: -1, y: 23}
+        - {x: -5, y: 5}
+        - {x: -5, y: -15}
+        - {x: -2, y: -16}
+        - {x: 3, y: -12}
+        - {x: -1, y: -16}
+        - {x: -2, y: -19}
+        - {x: -1, y: -23}
+        - {x: 7, y: -23}
+        - {x: 15, y: -15}
+        - {x: 22, y: 9}
+        - {x: 22, y: 17}
     outline: []
   spritePackingTag: 
   userData: 

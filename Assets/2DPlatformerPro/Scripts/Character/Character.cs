@@ -1328,7 +1328,7 @@ namespace PlatformerPro
 				previousRotation = SlopeTargetRotation;
 
 				// Do any rotations
-				if ((rotateToSlopes || transform.rotation.eulerAngles.z != 0) && movements[activeMovement].ShouldDoRotations) DoRotation();
+				if ((rotateToSlopes || (transform.rotation.eulerAngles.z != 0 && !IsGravityFlipped)) && movements[activeMovement].ShouldDoRotations) DoRotation();
 				
 				// Transitions
 				TransitionMovementControl();

@@ -46,10 +46,17 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <None Include="Assets\ProceduralLightning\Prefab\Materials\AdditiveSoftTintableShader.shader" />
      <None Include="Assets\PlayMaker\Readme.txt" />
+     <None Include="Assets\ProceduralLightning\Prefab\Materials\LightningBoltShaderMeshNoGlow.shader" />
      <None Include="Assets\NeatWolf\ParticleFX02\_Shaders\NW_Particle AddSmooth.shader" />
+     <None Include="Assets\ProceduralLightning\ChangeLog.txt" />
+     <None Include="Assets\ProceduralLightning\Prefab\Materials\LightningBoltShaderMesh.shader" />
+     <None Include="Assets\ProceduralLightning\Readme.txt" />
+     <None Include="Assets\ProceduralLightning\Prefab\Materials\DarkCloudShader.shader" />
      <None Include="Assets\NeatWolf\ParticleFX02\_Docs\Readme.txt" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\ProceduralLightning\Demo\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
      <None Include="Assets\2DPlatformerPro\Samples\ComandBroSample\Art\ArtCredits-CommandBro.txt" />
  <Reference Include="UnityEngine.UI">

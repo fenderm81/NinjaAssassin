@@ -405,6 +405,7 @@
      <Compile Include="Assets\2DPlatformerPro\Scripts\Utility\Spawner.cs" />
      <Compile Include="Assets\2DPlatformerPro\Scripts\Utility\SpriteForwarder.cs" />
      <Compile Include="Assets\2DPlatformerPro\Scripts\Utility\StringExtensions.cs" />
+     <Compile Include="Assets\NeatWolf\ParticleFX01\_Scripts\Rotating.cs" />
      <Compile Include="Assets\PlayMaker Unity 2D\Actions\AddForce2d.cs" />
      <Compile Include="Assets\PlayMaker Unity 2D\Actions\AddTorque2d.cs" />
      <Compile Include="Assets\PlayMaker Unity 2D\Actions\Collision2dEvent.cs" />
@@ -1029,9 +1030,11 @@
      <None Include="Assets\ProceduralLightning\Prefab\Materials\LightningBoltShaderMeshNoGlow.shader" />
      <None Include="Assets\NeatWolf\ParticleFX02\_Shaders\NW_Particle AddSmooth.shader" />
      <None Include="Assets\ProceduralLightning\ChangeLog.txt" />
+     <None Include="Assets\NeatWolf\ParticleFX01\_Shaders\NW_Particle AddClipFade.shader" />
      <None Include="Assets\ProceduralLightning\Prefab\Materials\LightningBoltShaderMesh.shader" />
      <None Include="Assets\ProceduralLightning\Readme.txt" />
      <None Include="Assets\ProceduralLightning\Prefab\Materials\DarkCloudShader.shader" />
+     <None Include="Assets\NeatWolf\ParticleFX01\_Shaders\NW_Particle AddSmooth.shader" />
      <None Include="Assets\NeatWolf\ParticleFX02\_Docs\Readme.txt" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\ProceduralLightning\Demo\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />

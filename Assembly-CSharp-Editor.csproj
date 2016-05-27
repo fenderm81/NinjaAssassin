@@ -120,9 +120,11 @@
      <None Include="Assets\ProceduralLightning\Prefab\Materials\LightningBoltShaderMeshNoGlow.shader" />
      <None Include="Assets\NeatWolf\ParticleFX02\_Shaders\NW_Particle AddSmooth.shader" />
      <None Include="Assets\ProceduralLightning\ChangeLog.txt" />
+     <None Include="Assets\NeatWolf\ParticleFX01\_Shaders\NW_Particle AddClipFade.shader" />
      <None Include="Assets\ProceduralLightning\Prefab\Materials\LightningBoltShaderMesh.shader" />
      <None Include="Assets\ProceduralLightning\Readme.txt" />
      <None Include="Assets\ProceduralLightning\Prefab\Materials\DarkCloudShader.shader" />
+     <None Include="Assets\NeatWolf\ParticleFX01\_Shaders\NW_Particle AddSmooth.shader" />
      <None Include="Assets\NeatWolf\ParticleFX02\_Docs\Readme.txt" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\ProceduralLightning\Demo\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />

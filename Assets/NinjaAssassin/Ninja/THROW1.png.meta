@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c4745536ab48e4c4aaebd07d42b7c251
-timeCreated: 1463074636
+timeCreated: 1464569987
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -63,7 +63,7 @@ TextureImporter:
         width: 45
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -4.5, y: 23.5}
@@ -80,18 +80,18 @@ TextureImporter:
         y: 0
         width: 45
         height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 15.5, y: 23.5}
-        - {x: -9.5, y: 23.5}
-        - {x: -22.5, y: 20.5}
-        - {x: -22.5, y: -20.5}
-        - {x: 12.5, y: -20.5}
-        - {x: 21.5, y: -19.5}
-        - {x: 21.5, y: -5.5}
-        - {x: 17.5, y: 22.5}
+      - - {x: 15.5, y: 21.15}
+        - {x: -9.5, y: 21.15}
+        - {x: -22.5, y: 18.15}
+        - {x: -22.5, y: -22.85}
+        - {x: 12.5, y: -22.85}
+        - {x: 21.5, y: -21.85}
+        - {x: 21.5, y: -7.8500004}
+        - {x: 17.5, y: 20.15}
     - name: THROW1_2
       rect:
         serializedVersion: 2
@@ -99,19 +99,19 @@ TextureImporter:
         y: 0
         width: 45
         height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -22.5, y: 8.5}
-        - {x: -22.5, y: 4.5}
-        - {x: -17.5, y: -10.5}
-        - {x: -14.5, y: -18.5}
-        - {x: 22.5, y: -18.5}
-        - {x: 22.5, y: -9.5}
-        - {x: 17.5, y: 23.5}
-        - {x: -2.5, y: 23.5}
-        - {x: -21.5, y: 9.5}
+      - - {x: -22.5, y: 6.1499996}
+        - {x: -22.5, y: 2.1499996}
+        - {x: -17.5, y: -12.85}
+        - {x: -14.5, y: -20.85}
+        - {x: 22.5, y: -20.85}
+        - {x: 22.5, y: -11.85}
+        - {x: 17.5, y: 21.15}
+        - {x: -2.5, y: 21.15}
+        - {x: -21.5, y: 7.1499996}
     - name: THROW1_3
       rect:
         serializedVersion: 2
@@ -119,19 +119,19 @@ TextureImporter:
         y: 0
         width: 45
         height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -22.5, y: -1.5}
-        - {x: -18.5, y: -15.5}
-        - {x: -15.5, y: -19.5}
-        - {x: 22.5, y: -19.5}
-        - {x: 22.5, y: 16.5}
-        - {x: 21.5, y: 22.5}
-        - {x: 18.5, y: 23.5}
-        - {x: -6.5, y: 23.5}
-        - {x: -22.5, y: 10.5}
+      - - {x: -22.5, y: -3.8500004}
+        - {x: -18.5, y: -17.85}
+        - {x: -15.5, y: -21.85}
+        - {x: 22.5, y: -21.85}
+        - {x: 22.5, y: 14.15}
+        - {x: 21.5, y: 20.15}
+        - {x: 18.5, y: 21.15}
+        - {x: -6.5, y: 21.15}
+        - {x: -22.5, y: 8.15}
     - name: THROW1_4
       rect:
         serializedVersion: 2
@@ -139,20 +139,20 @@ TextureImporter:
         y: 0
         width: 45
         height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 22.5, y: 18.5}
-        - {x: 17.5, y: 23.5}
-        - {x: 3.5, y: 23.5}
-        - {x: -22.5, y: 7.5}
-        - {x: -22.5, y: -0.5}
-        - {x: -14.5, y: -16.5}
-        - {x: -9.5, y: -21.5}
-        - {x: -6.5, y: -20.5}
-        - {x: 7.5, y: -21.5}
-        - {x: 22.5, y: -21.5}
+      - - {x: 22.5, y: 16.15}
+        - {x: 17.5, y: 21.15}
+        - {x: 3.5, y: 21.15}
+        - {x: -22.5, y: 5.1499996}
+        - {x: -22.5, y: -2.8500004}
+        - {x: -14.5, y: -18.85}
+        - {x: -9.5, y: -23.85}
+        - {x: -6.5, y: -22.85}
+        - {x: 7.5, y: -23.85}
+        - {x: 22.5, y: -23.85}
     outline: []
   spritePackingTag: 
   userData: 

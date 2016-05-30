@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 180388e7550ef0e4f8e6a4b9b7fa0310
-timeCreated: 1463074425
+timeCreated: 1464571053
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -64,7 +64,7 @@ TextureImporter:
         width: 74
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 23, y: 23}
@@ -86,17 +86,17 @@ TextureImporter:
         y: 70
         width: 74
         height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -15, y: 35}
-        - {x: -26, y: 24}
-        - {x: -26, y: 10}
-        - {x: -13, y: -18}
-        - {x: 21, y: -18}
-        - {x: 21, y: 23}
-        - {x: 8, y: 35}
+      - - {x: -15, y: 24.5}
+        - {x: -26, y: 13.5}
+        - {x: -26, y: -0.5}
+        - {x: -13, y: -28.5}
+        - {x: 21, y: -28.5}
+        - {x: 21, y: 12.5}
+        - {x: 8, y: 24.5}
     - name: DEATH2_2
       rect:
         serializedVersion: 2
@@ -104,29 +104,29 @@ TextureImporter:
         y: 70
         width: 74
         height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 11, y: 28}
-        - {x: -3, y: 16}
-        - {x: -12, y: -5}
-        - {x: -12, y: -11}
-        - {x: -5, y: -16}
-        - {x: 0, y: -21}
-        - {x: 3, y: -21}
-        - {x: 14, y: -12}
-        - {x: 27, y: 20}
-        - {x: 27, y: 28}
-      - - {x: -24, y: 35}
-        - {x: -29, y: 35}
-        - {x: -29, y: 29}
-        - {x: -20, y: 8}
-        - {x: -16, y: -1}
-        - {x: -13, y: -1}
-        - {x: -11, y: 0}
-        - {x: -11, y: 4}
-        - {x: -13, y: 15}
+      - - {x: 11, y: 17.5}
+        - {x: -3, y: 5.5}
+        - {x: -12, y: -15.5}
+        - {x: -12, y: -21.5}
+        - {x: -5, y: -26.5}
+        - {x: 0, y: -31.5}
+        - {x: 3, y: -31.5}
+        - {x: 14, y: -22.5}
+        - {x: 27, y: 9.5}
+        - {x: 27, y: 17.5}
+      - - {x: -24, y: 24.5}
+        - {x: -29, y: 24.5}
+        - {x: -29, y: 18.5}
+        - {x: -20, y: -2.5}
+        - {x: -16, y: -11.5}
+        - {x: -13, y: -11.5}
+        - {x: -11, y: -10.5}
+        - {x: -11, y: -6.5}
+        - {x: -13, y: 4.5}
     - name: DEATH2_3
       rect:
         serializedVersion: 2
@@ -134,20 +134,20 @@ TextureImporter:
         y: 0
         width: 74
         height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 13, y: 22}
-        - {x: -13, y: 35}
-        - {x: -22, y: 35}
-        - {x: -22, y: 15}
-        - {x: -19, y: -13}
-        - {x: 10, y: -13}
-        - {x: 27, y: -9}
-        - {x: 30, y: 2}
-        - {x: 30, y: 24}
-        - {x: 29, y: 24}
+      - - {x: 13, y: 11.5}
+        - {x: -13, y: 24.5}
+        - {x: -22, y: 24.5}
+        - {x: -22, y: 4.5}
+        - {x: -19, y: -23.5}
+        - {x: 10, y: -23.5}
+        - {x: 27, y: -19.5}
+        - {x: 30, y: -8.5}
+        - {x: 30, y: 13.5}
+        - {x: 29, y: 13.5}
     - name: DEATH2_4
       rect:
         serializedVersion: 2
@@ -155,21 +155,21 @@ TextureImporter:
         y: 0
         width: 74
         height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 17, y: 11}
-        - {x: -11, y: 33}
-        - {x: -14, y: 33}
-        - {x: -14, y: -2}
-        - {x: -11, y: -6}
-        - {x: -1, y: -12}
-        - {x: 10, y: -12}
-        - {x: 17, y: -11}
-        - {x: 37, y: -3}
-        - {x: 37, y: 2}
-        - {x: 28, y: 13}
+      - - {x: 17, y: 0.5}
+        - {x: -11, y: 22.5}
+        - {x: -14, y: 22.5}
+        - {x: -14, y: -12.5}
+        - {x: -11, y: -16.5}
+        - {x: -1, y: -22.5}
+        - {x: 10, y: -22.5}
+        - {x: 17, y: -21.5}
+        - {x: 37, y: -13.5}
+        - {x: 37, y: -8.5}
+        - {x: 28, y: 2.5}
     - name: DEATH2_5
       rect:
         serializedVersion: 2
@@ -177,24 +177,24 @@ TextureImporter:
         y: 0
         width: 74
         height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -4, y: -13}
-        - {x: 30, y: -17}
-        - {x: 37, y: -4}
-        - {x: 37, y: 6}
-        - {x: -12, y: 6}
-        - {x: -16, y: 5}
-        - {x: -16, y: -16}
-        - {x: -6, y: -22}
-        - {x: 17, y: -28}
-        - {x: 18, y: -28}
-        - {x: 21, y: -27}
-        - {x: 21, y: -25}
-        - {x: 16, y: -21}
-        - {x: 4, y: -16}
+      - - {x: -4, y: -23.5}
+        - {x: 30, y: -27.5}
+        - {x: 37, y: -14.5}
+        - {x: 37, y: -4.5}
+        - {x: -12, y: -4.5}
+        - {x: -16, y: -5.5}
+        - {x: -16, y: -26.5}
+        - {x: -6, y: -32.5}
+        - {x: 17, y: -38.5}
+        - {x: 18, y: -38.5}
+        - {x: 21, y: -37.5}
+        - {x: 21, y: -35.5}
+        - {x: 16, y: -31.5}
+        - {x: 4, y: -26.5}
     outline: []
   spritePackingTag: 
   userData: 

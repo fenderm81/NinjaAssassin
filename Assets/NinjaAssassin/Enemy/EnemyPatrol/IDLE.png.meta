@@ -1,11 +1,12 @@
 fileFormatVersion: 2
-guid: 9ca5f169bf85b2847a24ea3fdc15ec86
-timeCreated: 1463094373
+guid: 1f266ed2ba35e884ca40af383e26223c
+timeCreated: 1463093502
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: SHOOT_0
-    21300002: SHOOT_1
+    21300000: IDLE_0
+    21300002: IDLE_1
+    21300004: IDLE_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -19,7 +20,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -28,7 +29,7 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
     filterMode: 0
@@ -44,7 +45,7 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -57,26 +58,61 @@ TextureImporter:
     allowsAlphaSplitting: 0
   spriteSheet:
     sprites:
-    - name: SHOOT_0
+    - name: IDLE_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 28
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SHOOT_1
+      outline:
+      - - {x: -5, y: 19}
+        - {x: -12, y: 17}
+        - {x: -12, y: -32}
+        - {x: 8, y: -32}
+        - {x: 14, y: -14}
+        - {x: 14, y: 6}
+        - {x: 1, y: 19}
+    - name: IDLE_1
       rect:
         serializedVersion: 2
-        x: 28
+        x: 64
         y: 0
-        width: 28
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 19}
+        - {x: -10, y: 17}
+        - {x: -10, y: -32}
+        - {x: 10, y: -32}
+        - {x: 16, y: -8}
+        - {x: 16, y: 2}
+        - {x: 1, y: 19}
+    - name: IDLE_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 18}
+        - {x: -10, y: 16}
+        - {x: -10, y: -32}
+        - {x: 10, y: -32}
+        - {x: 15, y: -21}
+        - {x: 15, y: 4}
+        - {x: 7, y: 18}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
